@@ -1,0 +1,40 @@
+declare resposta1, resposta2, resposta3
+
+print "està viu?"
+
+resposta1 = read_input
+
+if resposta1 = "Yes" then
+	
+  print "és un animal?"
+	
+	resposta2 = read_input
+	
+	if resposta2 = "Yes" then
+		Print "és un gos?
+	Else
+		Print "és brocoli?"
+	End-if
+
+Else 
+	
+	Print "és un metall?"
+	
+	Resposta2 = read_input
+	
+	If resposta2 = "Yes" then
+		Print "és ferro?
+	Else
+		Print "és paper?"
+	End-if
+	
+Resposta3 = read_input
+
+If resposta3 = "Yes" then
+	Print "ordenador guanya!!"
+Else
+	Print "ordenador perd, ohhhh"
+End-if
+
+
+Per jugar "Play again" es pot fer servir una estructura de bucle
