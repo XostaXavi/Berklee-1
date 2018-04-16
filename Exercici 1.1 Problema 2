@@ -1,4 +1,5 @@
 'Problema 2
+
 Declare A_llegit, B_llegit, A, B, resultat as boolean
 
 print "enter boolean value for A"
