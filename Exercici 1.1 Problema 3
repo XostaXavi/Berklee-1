@@ -1,0 +1,17 @@
+declare numerador, denominador, resultat
+
+print "introdueix numerador"
+
+read_input numerador
+
+print "introdueix denominador"
+
+read_input denominador
+
+if  denominador = 0 then
+  resultat = 0
+else 
+  resultat = numerador / denominador
+end-if
+
+print resultat
