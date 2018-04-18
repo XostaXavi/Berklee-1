@@ -1,3 +1,8 @@
+Using pseudocode, write a program that will play the game, "Three Questions."
+Just like its overly-complicated forebear, this game has the player think of an object.
+The program asks two yes/no questions about the object, then for the third, makes a guess about what it might be.
+
+
 declare resposta1, resposta2, resposta3
 
 print "està viu?"

@@ -1,3 +1,9 @@
+Write some code that will read two numbers in from the user and print out the result of dividing them.
+It should work like normal division, except that it prints 0 when the denominator is 0, instead of being an error.
+To submit your work, and preserve the formatting of your test, create a secret "Gist" at https://gist.github.com/. 
+Submit a link to your Gist, as well as any comments or questions you might have.
+
+
 declare numerador, denominador, resultat
 
 print "introdueix numerador"
