@@ -1,4 +1,9 @@
-'Problema 2
+Problema 2
+Write some code to prompt a user to enter two boolean values, A and B.
+The user might type "t" or "yes" instead of "true", though, so start by determining if each of the values is true or false.
+True values might be "true", "t", "y", or "1", while everything else is considered false. Once you know the two values,
+print the result of "A && B".
+
 
 Declare A_llegit, B_llegit, A, B, resultat as boolean
 
