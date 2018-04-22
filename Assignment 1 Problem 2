@@ -1,0 +1,36 @@
+Problem 2
+Using pseudocode, write a program that will ask the user to enter a musical note from the C major scale, 
+and then the number of steps to transpose it (in other words, don't worry about sharps and flats). 
+The number of steps will be an integer between -7 and 7. 
+
+
+Declare nota, interval, numDnota, origen, destí, resultat_fi
+
+print "entra una nota"
+
+nota = read_input
+
+print "entra un interval"
+
+interval = read_input
+
+numDnota = (nota - A) + 1
+
+'així tindrem a numDnota: 1 si era A, 2 si era B, …, 7 si era G
+
+origen = numDnota + interval
+
+If origen > 7
+  destí = origen - 7
+Else
+	If origen < 1
+		destí = origen + 7
+	Else
+		destí = origen
+	End-if
+End-if
+
+'transformem la nota final que tenim en número cap a lletra
+
+resultat_fi = A + (destí - 1)
+Print "Transpost: " + resultat_fi
